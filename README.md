@@ -102,3 +102,5 @@ BMS Institute of Technology & Management
 ---
 
 ⭐ If you like this project, don't forget to star the repository!
+
+Project deployed successfully on Vercel.
