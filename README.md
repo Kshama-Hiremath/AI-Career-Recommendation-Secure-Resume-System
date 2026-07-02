@@ -1,73 +1,104 @@
-# Welcome to your Lovable project
+# 🚀 AI Career Recommendation Platform with Secure Resume Processing
 
-## Project info
+An AI-powered web application that analyzes resumes, provides personalized career recommendations, offers an intelligent AI career advisor, and securely processes user data.
 
-**URL**: https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID
+---
 
-## How can I edit this code?
+## ✨ Features
 
-There are several ways of editing your application.
+- 📄 AI Resume Analysis
+- 🤖 AI Career Advisor
+- 💼 Personalized Career Recommendations
+- 🔍 Skill Gap Analysis
+- 📊 Resume Insights Dashboard
+- 🔐 Secure Resume Processing
+- 🌙 Modern Responsive UI
+- ☁️ Supabase Integration
+- ⚡ Fast Vite + React Application
 
-**Use Lovable**
+---
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and start prompting.
+## 🛠 Tech Stack
 
-Changes made via Lovable will be committed automatically to this repo.
+### Frontend
+- React
+- TypeScript
+- Vite
+- Tailwind CSS
+- shadcn/ui
 
-**Use your preferred IDE**
+### Backend / Services
+- Supabase
+- Google Gemini AI
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+### Tools
+- VS Code
+- Git
+- GitHub
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+---
 
-Follow these steps:
+## 📂 Project Structure
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+```text
+src/
+ ├── components/
+ ├── pages/
+ ├── hooks/
+ ├── lib/
+ ├── integrations/
+ ├── App.tsx
+ └── main.tsx
+```
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+---
 
-# Step 3: Install the necessary dependencies.
-npm i
+## 🚀 Installation
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+```bash
+git clone https://github.com/Kshama-Hiremath/AI-Career-Recommendation-Secure-Resume-System.git
+
+cd AI-Career-Recommendation-Secure-Resume-System
+
+npm install
+
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+---
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+## 🔐 Environment Variables
 
-**Use GitHub Codespaces**
+Create a `.env` file and configure:
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+```env
+VITE_SUPABASE_URL=YOUR_SUPABASE_URL
+VITE_SUPABASE_PUBLISHABLE_KEY=YOUR_SUPABASE_PUBLISHABLE_KEY
+```
 
-## What technologies are used for this project?
+Configure your own Gemini API Key from the application settings before using AI features.
 
-This project is built with:
+---
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+## 📈 Future Enhancements
 
-## How can I deploy this project?
+- ATS Score Prediction
+- Job Portal Integration
+- Resume PDF Generator
+- Mock Interview Module
+- AI Roadmap Generator
+- Multi-language Resume Support
 
-Simply open [Lovable](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and click on Share -> Publish.
+---
 
-## Can I connect a custom domain to my Lovable project?
+## 👩‍💻 Author
 
-Yes, you can!
+**Kshama Hiremath**
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+B.E. Information Science & Engineering
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+BMS Institute of Technology & Management
+
+---
+
+⭐ If you like this project, don't forget to star the repository!
